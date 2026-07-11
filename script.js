@@ -96,3 +96,9 @@ const container = document.querySelector("#video-container");
 
   container.appendChild(Card);
 };
+function selectSidebar(el) {
+  document.querySelectorAll('.sidebar-item').forEach(item => {
+    item.classList.remove('active');
+  });
+  el.classList.add('active');
+}
