@@ -239,3 +239,7 @@ body {
   top: 60px;
   left: 0;
 }
+.sidebar-item.active {
+  background-color: #444;
+  border-left: 3px solid #ff0000;
+}
